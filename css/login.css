@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(/img/fundologin.jpeg);
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0px;
+}
+
+h1, h4{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #192b86;
+}
